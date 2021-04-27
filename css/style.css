@@ -1,4 +1,4 @@
-/* REGOLE GENERALI*/
+/* REGOLE GENERALI */
 
 * {
     margin: 0;
@@ -7,13 +7,15 @@
 }
 
 body {
+    max-width: 100%;
+    overflow-x: hidden;
     /*debug*/
     background-color: darkgoldenrod;
 }
 
 header {
     /*debug*/
-    background-color: darkred;
+    /*background-color: darkred;*/
 }
 
 .container {
@@ -21,16 +23,50 @@ header {
     width: 100%;
     margin: 0 auto;
     /*debug*/
-     background-color: coral;
+    /* background-color: coral;*/
 }
 
 
 /* HEADER */
 
-.nav-box {
+.main-header {
     display: flex;
-    justify-content: space-between;
+    /*debug*/
+    /*background-color: dodgerblue;*/
 }
+
+.left-side {
+    width: 35%;
+    /* debug*/
+    background-color: black;
+    height: 1000px;
+}
+
+.right-side {
+    width: 65%;
+    color: white;
+    /* debug*/
+    /*background-color: lightskyblue;*/
+    background-image: url(../img/slider52x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -100px 0;
+    height: 1000px;
+}
+
+.box-logo {
+    margin: 40px 0 0 40px;
+
+}
+
+.box-menu {
+    text-align: right;
+    margin: 50px 40px 0 0;
+}
+
+
+
+
 
 /* MAIN */
 
