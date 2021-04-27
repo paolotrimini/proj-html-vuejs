@@ -92,21 +92,45 @@ header {
 
 
 
-
-
 /* MAIN */
+
+
+
+
 
 /* FOOTER */
 
+/* TOP FOOTER */
 
 .top-footer {
+    display:flex;
+    align-items: center;
+    justify-content: center;
     background-image: url(../img/footer2x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
     /*debug*/
-    /*background-color: lightskyblue;*/
+    /*background-color: orange;*/
 }
+
+footer .top-footer .box-icons {
+    margin-top: 120px;
+    /*debug*/
+    /*background-color: lightblue;*/
+}
+
+footer .top-footer .box-icons ul li {
+    /*debug*/
+    background-color: white;
+}
+
+footer .top-footer .box-icons img {
+    padding: 0 10px;
+}
+
+
+/* BOTTOM FOOTER */
 
 footer .bottom-footer {
     display: flex;
@@ -124,9 +148,4 @@ footer .bottom-footer .copy {
 
 footer .bottom-footer .copy span {
     color: white;
-}
-
-footer .top-footer .box-icons ul {
-    display:flex;
-
 }

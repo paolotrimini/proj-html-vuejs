@@ -8,6 +8,8 @@
                     { icon: 'img/', alt: 'Facebook' },
                     { icon: 'img/', alt: 'Twitter' },
                     { icon: 'img/', alt: 'Instagram' },
+                    { icon: 'img/', alt: 'Linkedin' },
+                    { icon: 'img/', alt: 'Youtube' }
                 ]
             },
 
