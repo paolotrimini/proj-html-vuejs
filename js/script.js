@@ -4,20 +4,12 @@
         new Vue ({
             el: '#app',
             data: {
-                'icons': [
-
-                    'Facebook',
-                    'Twitter',
-                    'Instagram',
-                    'Linkedin',
-                    'Youtube'
+                images: [
+                    { icon: 'img/', alt: 'Facebook' },
+                    { icon: 'img/', alt: 'Twitter' },
+                    { icon: 'img/', alt: 'Instagram' },
                 ]
-
             },
-            methods: {
-
-            }
-
 
 
         })

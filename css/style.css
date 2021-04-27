@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+ul, list {
+    list-style-type: none;
+}
+
 body {
     max-width: 100%;
     overflow-x: hidden;
@@ -122,6 +126,7 @@ footer .bottom-footer .copy span {
     color: white;
 }
 
-footer .top-footer .social-icons {
+footer .top-footer .box-icons ul {
+    display:flex;
 
 }

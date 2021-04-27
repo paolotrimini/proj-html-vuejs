@@ -58,9 +58,11 @@
             <!-- FOOTER -->
             <footer>
                 <div class="top-footer">
-                    <div class="social-icons">
+                    <div class="box-icons">
                         <ul>
-                            <li v-for="icon in icons">{{ icon }}</li>
+                            <li>
+                                <img v-for="image in images" :src="image.icon" :alt="image.alt" />
+                            </li>
                         </ul>
                     </div>
                 </div>
