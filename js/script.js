@@ -2,7 +2,21 @@
     function initVue() {
 
         new Vue ({
-            el: '#app'
+            el: '#app',
+            data: {
+                'icons': [
+
+                    'Facebook',
+                    'Twitter',
+                    'Instagram',
+                    'Linkedin',
+                    'Youtube'
+                ]
+
+            },
+            methods: {
+
+            }
 
 
 
