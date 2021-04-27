@@ -14,6 +14,7 @@ body {
 }
 
 header {
+    font-family: 'Roboto', sans-serif;
     /*debug*/
     /*background-color: darkred;*/
 }
@@ -56,12 +57,33 @@ header {
 
 .box-logo {
     margin: 40px 0 0 40px;
-
 }
 
 .box-menu {
     text-align: right;
     margin: 50px 40px 0 0;
+}
+
+.text-left-side {
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    margin-top: 140px;
+    margin-left: 50px;
+    /*debug*/
+    /*background-color: yellowgreen;*/
+}
+
+.text-left-side .text-title{
+    color: white;
+    text-transform: uppercase;
+    margin-left: 35px;
+    font-size: 14px;
+}
+
+.linea {
+    border-top: 1px solid white;
+    width: 40px;
 }
 
 
@@ -71,3 +93,31 @@ header {
 /* MAIN */
 
 /* FOOTER */
+
+
+.top-footer {
+    background-image: url(../img/footer2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    /*debug*/
+    /*background-color: lightskyblue;*/
+}
+
+footer .bottom-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    /*debug*/
+    background-color: black;
+}
+
+footer .bottom-footer .copy {
+    font-size: 12px;
+    color: #707070;
+}
+
+footer .bottom-footer .copy span {
+    color: white;
+}
