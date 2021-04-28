@@ -37,8 +37,8 @@
                     <p><i @click="hideSidebarNavMenu" class="fas fa-bars"></i></p>
                     <div v-if="sidebarMenu" class="ham-menu">
                         <ul>
-                            <li v-for="name in names">
-                                {{ name }}
+                            <li v-for="item in items">
+                                {{ item }}
                             </li>
 
                         </ul>

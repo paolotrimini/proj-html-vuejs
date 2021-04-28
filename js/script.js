@@ -14,7 +14,7 @@
                     { icon: 'img/', alt: 'Youtube' }
                 ],
 
-                names: [
+                items: [
 
                     'Home',
                     'Culinary History',
