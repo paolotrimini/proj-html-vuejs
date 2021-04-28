@@ -221,7 +221,7 @@ main {
 
 .row-interna {
     /*debug*/
-    background-color: lightpink;
+    /*background-color: lightpink;*/
 }
 
 
@@ -282,13 +282,19 @@ footer .top-footer .box-icons img {
     display: flex;
     flex-direction: column;
     /*debug*/
-    background-color: lightskyblue;
+    /*background-color: lightskyblue;*/
 
 }
 
 .right-1 {
     /*debug*/
-    background-color: lightsalmon;
+    /*background-color: lightsalmon;*/
+
+}
+.right-1 img {
+    width: 100%;
+    /*debug*/
+    /*background-color: lightsalmon;*/
 
 }
 
