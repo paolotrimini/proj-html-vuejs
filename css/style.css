@@ -14,17 +14,18 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     /*debug*/
-    background-color: black;
+    /*background-color: black;*/
 }
 
 header {
+    position: relative;
     /*debug*/
     /*background-color: darkred;*/
 }
 
 .container {
     max-width: 1200px;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     /*debug*/
     /* background-color: coral;*/
@@ -33,84 +34,52 @@ header {
 
 /* HEADER */
 
-
-header {
-    background-image: url(../img/slider52x.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 550px;
-    /* debug*/
-    /*background-color: lightskyblue;*/
-    min-height: 1050px;
-}
-
-main {
-    /* debug*/
-    background-color: white;
-
-}
-
-/* TOP HEADER */
-
-.top-header {
+.nav-box {
+    font-family: 'Work Sans', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    right: 50px;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
     /*debug*/
-    /*background-color: yellowgreen;*/
+   /* background-color: darkolivegreen;*/
 }
 
-.top-header .box-ham-menu i{
+.nav-box .box-menu i {
     color: white;
     font-size: 25px;
 }
 
+/* HAMBURGER MENU */
 
-/* BOTTOM HEADER */
-
-.bottom-header {
-    display: flex;
-    justify-content: space-between;
-    /*debug*/
-    /*background-color: dodgerblue;*/
-}
-.bottom-header .box-logo {
-    /*debug*/
-    background-color: lightgreen;
-}
-
-.bottom-header .box-menu {
+.ham-menu {
     position: absolute;
-    top: 50;
+    top: 150px;
     left: 0;
-    font-family: 'Work Sans', sans-serif;
+    z-index: 1;
     width: 100%;
     /*debug*/
     /*background-color: lightpink;*/
 }
 
-.bottom-header .box-menu .ham-menu {
-    position: relative;
-    /*debug*/
-    /*background-color: lightpink;*/
-}
-
-.bottom-header .box-menu .ham-menu p {
+.ham-menu p {
     text-align: right;
     /*debug*/
     /*background-color: lightpink;*/
 }
 
-.bottom-header .box-menu .ham-menu ul {
+.ham-menu ul {
     height: 300px;
     overflow: scroll;
     /*debug*/
     background-color: #3a3a3a; /* grigio */
 }
 
-.bottom-header .box-menu .ham-menu ul li {
+.ham-menu ul li {
     padding: 15px 0 15px 25px;
     font-size: 18px;
     font-weight: 500;
@@ -119,18 +88,42 @@ main {
     /*background-color: yellow;*/
 }
 
-.bottom-header .box-menu .ham-menu ul li:first-child {
+.ham-menu ul li:first-child {
     /*debug*/
     background-color: #967b43; /* oro */
 }
 
 
-/* jumbo header sx */
+.box-jumbo {
+    display: flex;
+    position: relative;
+}
+
+.left-jumbo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    /*debug*/
+    background-color: black;
+}
+
+.right-jumbo {
+    background-image: url(../img/slider52x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /*debug*/
+    /*background-color: lightskyblue;*/
+}
+
+/*  PROPRIETA' JUMBO */
 
 .box-title {
     display: flex;
     flex-direction: column;
-    margin-top: 120px;
+    margin-top: 350px;
+    margin-left: 40px;
     /*debug*/
     /*background-color: orange;*/
 }
@@ -158,7 +151,9 @@ main {
     font-weight: bold;
 }
 
-.box-top-title .text-title p{
+.box-top-title .text-title p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
     margin-left: 35px;
     font-size: 16px;
 }
@@ -172,19 +167,20 @@ main {
     width: 40px;
 }
 
-
 .box-subtitle {
     margin-left: 75px;
-    width: 360px;
+    width: 320px;
 }
 
-.box-subtitle p{
+.box-subtitle p {
+    font-family: 'Lora', serif;
     color:white;
     text-align: left;
     font-size: 22px;
 }
 
 .box-btn button{
+    font-family: 'Work Sans', sans-serif;
     margin: 75px 0 80px 75px;
     padding: 10px 30px;
     border: 1px solid white;
