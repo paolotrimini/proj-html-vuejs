@@ -82,6 +82,9 @@ main {
 }
 
 .bottom-header .box-menu {
+    position: absolute;
+    top: 50;
+    left: 0;
     font-family: 'Work Sans', sans-serif;
     width: 100%;
     /*debug*/
@@ -89,6 +92,7 @@ main {
 }
 
 .bottom-header .box-menu .ham-menu {
+    position: relative;
     /*debug*/
     /*background-color: lightpink;*/
 }
