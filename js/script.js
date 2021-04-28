@@ -4,6 +4,7 @@
         new Vue ({
             el: '#app',
             data: {
+
                 sidebarMenu: false,
 
                 images: [

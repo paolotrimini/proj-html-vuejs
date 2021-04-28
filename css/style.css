@@ -18,7 +18,6 @@ body {
 }
 
 header {
-    font-family: 'Roboto', sans-serif;
     /*debug*/
     /*background-color: darkred;*/
 }
@@ -52,27 +51,49 @@ header {
 }
 
 .box-menu {
+    font-family: 'Work Sans', sans-serif;
     width: 100%;
     /*debug*/
-    background-color: lightgoldenrodyellow;
+    /*background-color: gold;*/
 }
 
 .box-menu .ham-menu {
     /*debug*/
-    background-color: lightpink;
+    /*background-color: lightpink;*/
 }
 .box-menu .ham-menu p {
     text-align: right;
     /*debug*/
-    background-color: lightpink;
+    /*background-color: lightpink;*/
 }
 
 .box-menu .ham-menu ul {
+    height: 300px;
+    overflow: scroll;
     /*debug*/
-    background-color: lightseagreen;
+    background-color: #3a3a3a; /* grigio */
+}
+
+.box-menu .ham-menu ul li {
+    padding: 15px 0 15px 10px;
+    font-size: 18px;
+    color: white;
+    /*debug*/
+    /*background-color: yellow;*/
+}
+
+.box-menu .ham-menu ul li:first-child {
+    /*debug*/
+    background-color: #967b43; /* oro */
 }
 
 
+/* HOVER MENU */
+
+.box-menu .ham-menu ul li:hover {
+    /*debug*/
+    background-color: #967b43; /* oro */
+}
 
 
 
