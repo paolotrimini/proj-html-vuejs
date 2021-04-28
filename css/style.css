@@ -33,19 +33,21 @@ header {
 
 /* FONT */
 
-footer, .section-1 .title-left-1 p, .box-subtitle p, .text-left-1 p, .section-2 .box-card .box-text-2 {
+footer, .section-1 .title-left-1 p, .box-subtitle p, .text-left-1 p, .section-2 .box-card .box-text-2, .section-2 .box-card .box-button-2  {
     font-family: 'Lora', serif;
 }
 
 .section-1 .subtitle-left-1 p, .box-bottom-title .text-jumbo p, .section-2 .box-card .box-title-2 {
     font-family: 'Bebas Neue', cursive;
 }
+.nav-box, .box-btn button, .section-2 .box-card .box-button-2 button {
+    font-family: 'Work Sans', sans-serif;
 
+}
 
 /* HEADER */
 
-.nav-box {
-    font-family: 'Work Sans', sans-serif;
+.nav-box  {
     position: absolute;
     top: 0;
     left: 40px;
@@ -188,8 +190,7 @@ footer, .section-1 .title-left-1 p, .box-subtitle p, .text-left-1 p, .section-2 
     font-size: 22px;
 }
 
-.box-btn button{
-    font-family: 'Work Sans', sans-serif;
+.box-btn button {
     margin: 75px 0 80px 75px;
     padding: 10px 30px;
     border: 1px solid white;
@@ -213,7 +214,8 @@ footer, .section-1 .title-left-1 p, .box-subtitle p, .text-left-1 p, .section-2 
 
 .box-btn button:hover {
     background-color: white;
-    color: black
+    color: black;
+    cursor: pointer;
 }
 
 
@@ -280,7 +282,7 @@ footer, .section-1 .title-left-1 p, .box-subtitle p, .text-left-1 p, .section-2 
     align-items: center;
     width: 280px;
     /*debug*/
-    background-color: lightgreen;
+    /*background-color: lightgreen;*/
 }
 
 .section-2 .box-card .box-title-2 {
@@ -297,6 +299,26 @@ footer, .section-1 .title-left-1 p, .box-subtitle p, .text-left-1 p, .section-2 
     font-size: 20px;
     margin-top: 20px;
 
+}
+
+.section-2 .box-card .box-button-2 {
+    text-align: center;
+    width: 250px;
+}
+
+
+.section-2 .box-card .box-button-2 button {
+    padding: 10px 30px;
+    border: 1px solid #bcbcbc;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.section-2 .box-card .box-button-2 button:hover {
+    border: 1px solid black;
+    cursor: pointer;
 }
 
 
