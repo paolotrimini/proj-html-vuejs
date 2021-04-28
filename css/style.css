@@ -41,7 +41,7 @@ header {
     background-position: 550px;
     /* debug*/
     /*background-color: lightskyblue;*/
-    height: 1050px;
+    min-height: 1050px;
 }
 
 /* TOP HEADER */
