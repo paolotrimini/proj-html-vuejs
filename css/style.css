@@ -25,7 +25,7 @@ header {
 
 .container {
     max-width: 1200px;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     /*debug*/
     /* background-color: coral;*/
@@ -66,6 +66,14 @@ header {
 .box-menu {
     text-align: right;
     margin: 50px 40px 0 0;
+}
+
+.ham-menu {
+    /*display: none;*/
+}
+
+.right-side .container .box-menu i {
+    font-size: 30px;
 }
 
 .box-title {
@@ -116,13 +124,6 @@ header {
     width: 40px;
 }
 
-/* HOVER HEADER */
-
-.box-bottom-title .text-jumbo p span:hover {
-    font-size: 65px;
-    text-decoration: underline;
-}
-
 
 .box-subtitle {
     color:white;
@@ -134,21 +135,37 @@ header {
 
 .box-btn button{
     margin: 75px 0 80px 75px;
- /*   margin-left: 75px;
-    margin-top: 50px;
-    margin-bottom: 100px;*/
     padding: 10px 30px;
     border: 1px solid white;
     background-color: black;
-    color: white
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
+/* HOVER HEADER */
+
+.box-bottom-title .text-jumbo p span:hover {
+    font-size: 65px;
+    text-decoration: underline;
+}
+
+.box-btn button:hover {
+    background-color: white;
+    color: black
+}
 
 /* MAIN */
 
-.main-row {
+.main-row-1 {
     /*debug*/
     background-color: orange;
+    height: 300px;
+}
+
+.row-interna {
+    /*debug*/
+    background-color: lightpink;
 
 }
 
@@ -206,6 +223,19 @@ footer .top-footer .box-icons img {
     color: white;
     /*debug*/
     /*background-color: lightgreen;*/
+}
+
+.left-1 {
+    display: flex;
+    flex-direction: column;
+    /*debug*/
+    background-color: lightskyblue;
+
+}
+
+.right-1 {
+    /*debug*/
+    background-color: lightsalmon;
 
 }
 
