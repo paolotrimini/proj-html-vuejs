@@ -29,29 +29,59 @@
     <div id="app">
             <!-- HEADER -->
         <header>
-            <div class="main-header">
+            <div class="container top-header">
                 <div class="box-logo">
                     <img src="img/logo-restaurant-2x-300x58.png" alt="LOGO">
                 </div>
-                <!-- box logo -->
-
+                <div class="box-ham-menu">
+                    <p><i @click="hideSidebarNavMenu" class="fas fa-bars"></i></p>
+                </div>
+            </div>
+            <div class="bottom-header">
                 <!-- box hamburger menu -->
                 <div class="box-menu">
-                    <p><i @click="hideSidebarNavMenu" class="fas fa-bars"></i></p>
                     <div v-if="sidebarMenu" class="ham-menu">
                         <ul>
                             <li v-for="item in items">
                                 {{ item }}
                             </li>
-
                         </ul>
                     </div>
+                </div>
+            </div>
+
+            <!-- left side header -->
+            <div class="container box-title">
+                <div class="box-top-title">
+                    <div class="linea">
+                    </div>
+                    <div class="text-title">
+                        <p>The best table in town</p>
+                    </div>
+                </div>
+                <div class="box-bottom-title">
+                    <div class="text-jumbo">
+                        <p>Fine</p>
+                        <p>Dining</p>
+                        <p>
+                            <span>e</span><span>x</span><span>p</span><span>e</span><span>r</span><span>i</span><span>e</span><span>n</span><span>c</span><span>e</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="box-subtitle">
+                    <p>Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerisque nisi in urna nulla.
+                        Sit tempor a et nisl, ac felis.
+                    </p>
+                </div>
+                <div class="box-btn">
+                    <button>Explore the menu</button>
                 </div>
             </div>
         </header>
 
             <!-- MAIN -->
             <main>
+                <!-- section 1 -->
                 <div class="row main-row-1">
                     <div class="container">
                         <!-- section 1 -->

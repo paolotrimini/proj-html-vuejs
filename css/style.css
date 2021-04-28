@@ -14,7 +14,7 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     /*debug*/
-    background-color: darkgoldenrod;
+    background-color: black;
 }
 
 header {
@@ -38,49 +38,69 @@ header {
     background-image: url(../img/slider52x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 550px;
     /* debug*/
     /*background-color: lightskyblue;*/
-    height: 700px;
+    height: 1050px;
 }
 
-.main-header {
+/* TOP HEADER */
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /*debug*/
+    /*background-color: yellowgreen;*/
+}
+
+.top-header .box-ham-menu i{
+    color: white;
+    font-size: 25px;
+}
+
+
+/* BOTTOM HEADER */
+
+.bottom-header {
     display: flex;
     justify-content: space-between;
     /*debug*/
     /*background-color: dodgerblue;*/
 }
+.bottom-header .box-logo {
+    /*debug*/
+    background-color: lightgreen;
+}
 
-.main-header .box-menu {
+.bottom-header .box-menu {
     font-family: 'Work Sans', sans-serif;
     width: 100%;
-    /*debug*/
-    /*background-color: gold;*/
-}
-
-.main-header .box-menu i{
-    color: white;
-    font-size: 25px;
-}
-
-.main-header .box-menu .ham-menu {
     /*debug*/
     /*background-color: lightpink;*/
 }
 
-.main-header .box-menu .ham-menu p {
+.bottom-header .box-menu .ham-menu {
+    /*debug*/
+    /*background-color: lightpink;*/
+}
+
+.bottom-header .box-menu .ham-menu p {
     text-align: right;
     /*debug*/
     /*background-color: lightpink;*/
 }
 
-.main-header .box-menu .ham-menu ul {
+.bottom-header .box-menu .ham-menu ul {
     height: 300px;
     overflow: scroll;
     /*debug*/
     background-color: #3a3a3a; /* grigio */
 }
 
-.main-header .box-menu .ham-menu ul li {
+.bottom-header .box-menu .ham-menu ul li {
     padding: 15px 0 15px 25px;
     font-size: 18px;
     font-weight: 500;
@@ -89,22 +109,103 @@ header {
     /*background-color: yellow;*/
 }
 
-.main-header .box-menu .ham-menu ul li:first-child {
+.bottom-header .box-menu .ham-menu ul li:first-child {
     /*debug*/
     background-color: #967b43; /* oro */
 }
 
 
-/* HOVER MENU */
+/* jumbo header sx */
 
-.main-header .box-menu .ham-menu ul li:hover {
+.box-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    /*debug*/
+    /*background-color: orange;*/
+}
+
+.box-top-title {
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    /*debug*/
+    /*background-color: lightgreen;*/
+}
+
+.box-bottom-title {
+    display: flex;
+    justify-content: left;
+    margin-left: 75px;
+    margin-top: 50px;
+    /*debug*/
+    /*background-color: lightpink;*/
+}
+
+.box-top-title .text-title p, .box-bottom-title .text-jumbo p {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+.box-top-title .text-title p{
+    margin-left: 35px;
+    font-size: 16px;
+}
+
+.box-bottom-title .text-jumbo p {
+    font-size: 75px;
+}
+
+.linea {
+    border-top: 1px solid white;
+    width: 40px;
+}
+
+
+.box-subtitle {
+    margin-left: 75px;
+    width: 360px;
+}
+
+.box-subtitle p{
+    color:white;
+    text-align: left;
+    font-size: 22px;
+}
+
+.box-btn button{
+    margin: 75px 0 80px 75px;
+    padding: 10px 30px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+/* HOVER HEADER */
+
+.bottom-header .box-menu .ham-menu ul li:hover {
     /*debug*/
     background-color: #967b43; /* oro */
 }
 
+.box-bottom-title .text-jumbo p span:hover {
+    text-decoration: underline;
+}
+
+.box-btn button:hover {
+    background-color: white;
+    color: black
+}
 
 
 /* MAIN */
+
+
+/* sezione 1 */
 
 .main-row-1 {
     /*debug*/
@@ -117,8 +218,6 @@ header {
     background-color: lightpink;
 
 }
-
-
 
 
 
