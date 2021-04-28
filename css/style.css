@@ -50,31 +50,37 @@ header {
     /*background-color: dodgerblue;*/
 }
 
-.box-menu {
+.main-header .box-menu {
     font-family: 'Work Sans', sans-serif;
     width: 100%;
     /*debug*/
     /*background-color: gold;*/
 }
 
-.box-menu .ham-menu {
+.main-header .box-menu i{
+    color: white;
+    font-size: 25px;
+}
+
+.main-header .box-menu .ham-menu {
     /*debug*/
     /*background-color: lightpink;*/
 }
-.box-menu .ham-menu p {
+
+.main-header .box-menu .ham-menu p {
     text-align: right;
     /*debug*/
     /*background-color: lightpink;*/
 }
 
-.box-menu .ham-menu ul {
+.main-header .box-menu .ham-menu ul {
     height: 300px;
     overflow: scroll;
     /*debug*/
     background-color: #3a3a3a; /* grigio */
 }
 
-.box-menu .ham-menu ul li {
+.main-header .box-menu .ham-menu ul li {
     padding: 15px 0 15px 25px;
     font-size: 18px;
     font-weight: 500;
@@ -83,7 +89,7 @@ header {
     /*background-color: yellow;*/
 }
 
-.box-menu .ham-menu ul li:first-child {
+.main-header .box-menu .ham-menu ul li:first-child {
     /*debug*/
     background-color: #967b43; /* oro */
 }
@@ -91,7 +97,7 @@ header {
 
 /* HOVER MENU */
 
-.box-menu .ham-menu ul li:hover {
+.main-header .box-menu .ham-menu ul li:hover {
     /*debug*/
     background-color: #967b43; /* oro */
 }
