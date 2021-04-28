@@ -44,6 +44,12 @@ header {
     min-height: 1050px;
 }
 
+main {
+    /* debug*/
+    background-color: white;
+
+}
+
 /* TOP HEADER */
 
 .top-header {
@@ -209,14 +215,13 @@ header {
 
 .main-row-1 {
     /*debug*/
-    background-color: orange;
-    height: 300px;
+    /*background-color: orange;*/
+    /*height: 300px;*/
 }
 
 .row-interna {
     /*debug*/
     background-color: lightpink;
-
 }
 
 
