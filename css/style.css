@@ -129,7 +129,7 @@ footer, .section-1 .title-left-1 p, .box-subtitle p, .text-left-1 p, .section-2 
     /*background-color: lightskyblue;*/
 }
 
-/*  PROPRIETA' JUMBO */
+/* JUMBO PROP. */
 
 .box-title {
     display: flex;
@@ -217,6 +217,7 @@ footer, .section-1 .title-left-1 p, .box-subtitle p, .text-left-1 p, .section-2 
     color: black;
     cursor: pointer;
 }
+
 
 
 /* MAIN */
@@ -341,12 +342,39 @@ footer, .section-1 .title-left-1 p, .box-subtitle p, .text-left-1 p, .section-2 
 }
 
 .section-3 .right-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
     /*debug*/
     background-color: lightblue;
     height: 400px;
 
 }
+
+.section-3 .box-btn-3 button {
+    padding: 10px 30px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* HOVER BUTTON */
+.box-btn-3 button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
 
 
 /* FOOTER */
