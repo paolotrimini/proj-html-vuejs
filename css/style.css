@@ -36,7 +36,7 @@ header {
 footer, .section-1 .title-left-1 p,
 .text-left-1 p,.box-subtitle p,
 .section-2 .box-card .box-text-2, .section-2
-.box-card .box-button-2, .text-right-3 p {
+.box-card .box-button-2, .text-right-3 p, .section-4 .title-4 h2 {
     font-family: 'Lora', serif;
 }
 
@@ -322,7 +322,7 @@ footer, .section-1 .title-left-1 p,
     font-size: 38px;
     text-align: center;
 }
-.section-2 .box-card .section-line {
+.section-2 .box-card .section-line, .section-4 .section-line {
     border-top: 1px solid #bcbcbc;
     width: 80px;
 }
@@ -425,6 +425,7 @@ footer, .section-1 .title-left-1 p,
     color: white;
     font-size: 18px;
     text-transform: uppercase;
+    margin-bottom: 100px;
 }
 
 /* HOVER BUTTON */
@@ -434,8 +435,22 @@ footer, .section-1 .title-left-1 p,
     cursor: pointer;
 }
 
+/* section 4 */
+
+.section-4 .title-4 {
+    text-align: center;
+}
+.section-4 .title-4 h2 {
+    font-size: 55px;
+    font-weight: 300;
+    margin-top: 60px;
+}
+
+.section-4 .section-line {
+    margin: 30px auto;
 
 
+}
 
 
 
