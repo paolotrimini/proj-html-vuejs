@@ -43,7 +43,7 @@
             <!-- inizio hamburger menu -->
             <div v-if="sidebarMenu" class="ham-menu">
                 <ul>
-                    <li v-for="item in items">
+                    <li v-for="item in menu.items" v-html="item">
                         {{ item }}
                     </li>
                 </ul>

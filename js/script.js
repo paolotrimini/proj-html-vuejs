@@ -7,6 +7,7 @@
 
                 sidebarMenu: false,
 
+                // FOOTER icons
                 images: [
                     { icon: 'img/face-1.png', alt: 'Facebook' },
                     { icon: 'img/twitter-1.png', alt: 'Twitter' },
@@ -15,17 +16,22 @@
                     { icon: 'img/yt-1.png', alt: 'Youtube' }
                 ],
 
-                items: [
+                // HEADER menu items
 
-                    'Home',
-                    'Culinary History',
-                    'Our Team',
-                    'Our Menu',
-                    'Takeout',
-                    'Bulletin',
-                    'Reservations',
-                    'WooCommerce Cart'
-                ]
+                menu: {
+
+                    items: [
+
+                        'Home<i class="fas fa-chevron-down"></i>',
+                        'Culinary History',
+                        'Our Team',
+                        'Our Menu',
+                        'Takeout<p>New</p><i class="fas fa-chevron-down"></i>',
+                        'Bulletin',
+                        'Reservations',
+                        'WooCommerce Cart'
+                    ]
+                }
             },
 
             methods: {

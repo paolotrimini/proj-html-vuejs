@@ -40,10 +40,13 @@ footer, .section-1 .title-left-1 p,
     font-family: 'Lora', serif;
 }
 
-.section-1 .subtitle-left-1 p, .box-bottom-title .text-jumbo p, .section-2 .box-card .box-title-2, .subtitle-right-3 {
+.section-1 .subtitle-left-1 p, .box-bottom-title .text-jumbo p,
+.section-2 .box-card .box-title-2, .subtitle-right-3 {
     font-family: 'Bebas Neue', cursive;
 }
-.nav-box, .box-btn button, .section-2 .box-card .box-button-2 button, .box-top-title .text-title p, .text-title-3 p  {
+
+.nav-box, .box-btn button, .section-2 .box-card .box-button-2 button,
+.box-top-title .text-title p, .text-title-3 p  {
     font-family: 'Work Sans', sans-serif;
 
 }
@@ -95,6 +98,7 @@ footer, .section-1 .title-left-1 p,
 }
 
 .ham-menu ul li {
+    position: relative;
     padding: 15px 0 15px 25px;
     font-size: 18px;
     font-weight: 500;
@@ -106,6 +110,29 @@ footer, .section-1 .title-left-1 p,
 .ham-menu ul li:first-child {
     /*debug*/
     background-color: #967b43; /* oro */
+}
+
+.ham-menu ul li:hover {
+    /*debug*/
+    background-color: #967b43; /* oro */
+}
+
+.ham-menu ul li p {
+    position: absolute;
+    top:32%;
+    left:8%;
+    font-size: 12px;
+    color: white;
+    padding: 3px 6px;
+    border: 1px solid #676767;
+}
+
+.ham-menu ul li i {
+    position: absolute;
+    top:45%;
+    right:2%;
+    font-size: 8px;
+    color: white;
 }
 
 
@@ -221,9 +248,7 @@ footer, .section-1 .title-left-1 p,
 }
 
 
-
 /* MAIN */
-
 
 /* section 1 */
 
