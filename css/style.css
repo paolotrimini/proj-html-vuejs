@@ -64,7 +64,7 @@ footer, .section-1 .title-left-1 p,
     align-items: baseline;
     padding-top: 50px;
     /*debug*/
-   /* background-color: darkolivegreen;*/
+    /*background-color: darkolivegreen;*/
 }
 
 .nav-box .box-menu i {
@@ -142,7 +142,6 @@ footer, .section-1 .title-left-1 p,
     position: relative;
 }
 
-
 .box-demos, .box-buy {
     font-family: 'Open Sans', sans-serif;
     display: flex;
@@ -162,7 +161,6 @@ footer, .section-1 .title-left-1 p,
     z-index: 2;
     -webkit-box-shadow: 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
     box-shadow: 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
-
 }
 
 .box-demos i, .box-buy i {
@@ -289,7 +287,6 @@ footer, .section-1 .title-left-1 p,
     cursor: pointer;
 }
 
-
 /* MAIN */
 
 /* section 1 */
@@ -307,7 +304,6 @@ footer, .section-1 .title-left-1 p,
 .section-1 .right-1 {
     display: flex;
     flex-direction: column;
-   /* align-items: center;*/
 }
 
 .section-1 .title-left-1, .text-left-1, .text-right-3, .text-right-4 p{
@@ -364,6 +360,7 @@ footer, .section-1 .title-left-1 p,
     font-size: 38px;
     text-align: center;
 }
+
 .section-2 .box-card .section-line, .section-4 .section-line {
     border-top: 1px solid #bcbcbc;
     width: 80px;
@@ -398,7 +395,6 @@ footer, .section-1 .title-left-1 p,
 
 /* section 3 */
 
-
 .section-3 {
     display: flex;
     margin-top: 100px;
@@ -429,7 +425,6 @@ footer, .section-1 .title-left-1 p,
     /*height: 400px;*/
 }
 
-
 .section-3 .box-top-title-3 {
     display: flex;
     align-items: center;
@@ -440,7 +435,6 @@ footer, .section-1 .title-left-1 p,
     border-top: 1px solid white;
     width: 40px;
 }
-
 
 .section-3 .subtitle-right-3 p{
     font-size: 75px;
@@ -497,7 +491,6 @@ footer, .section-1 .title-left-1 p,
     background-image: url(../img/blog72x-1200x1375.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /*height: 500px;*/
     /*debug*/
     /*background-color: lightpink;*/
 }
@@ -545,9 +538,6 @@ footer, .section-1 .title-left-1 p,
 }
 
 
-/* FOOTER */
-
-
 /* TOP FOOTER */
 
 .top-footer {
@@ -593,7 +583,6 @@ footer .top-footer .box-icons img {
     /*debug*/
     /*background-color: lightgreen;*/
 }
-
 
 /* BOTTOM FOOTER */
 
