@@ -8,11 +8,11 @@
                 sidebarMenu: false,
 
                 images: [
-                    { icon: 'img/', alt: 'Facebook' },
-                    { icon: 'img/', alt: 'Twitter' },
-                    { icon: 'img/', alt: 'Instagram' },
-                    { icon: 'img/', alt: 'Linkedin' },
-                    { icon: 'img/', alt: 'Youtube' }
+                    { icon: 'img/face-1.png', alt: 'Facebook' },
+                    { icon: 'img/twitter-1.png', alt: 'Twitter' },
+                    { icon: 'img/insta-1.png', alt: 'Instagram' },
+                    { icon: 'img/link-1.png', alt: 'Linkedin' },
+                    { icon: 'img/yt-1.png', alt: 'Youtube' }
                 ],
 
                 items: [
