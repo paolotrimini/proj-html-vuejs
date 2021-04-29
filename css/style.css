@@ -135,11 +135,49 @@ footer, .section-1 .title-left-1 p,
     color: white;
 }
 
+/* JUMBOTRON */
 
 .box-jumbo {
     display: flex;
     position: relative;
 }
+
+
+.box-demos, .box-buy {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    right: 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 12px;
+    color: #33475b;
+}
+
+.box-demos i, .box-buy i {
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.box-demos {
+    top: 200px;
+    /*debug*/
+    /*background-color: lightgreen;*/
+}
+
+.box-buy {
+    top: 285px;
+    /*debug*/
+    /*background-color: lightblue;*/
+}
+
 
 .left-jumbo {
     display: flex;
